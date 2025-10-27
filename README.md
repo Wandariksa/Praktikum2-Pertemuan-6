@@ -1,4 +1,4 @@
-# Pratikum2-pertwmuan6
+# Pratikum2-pertemuan6
 
 # Latihan 1
 
@@ -56,6 +56,8 @@ maka hasilnya :
 
 <img width="544" height="218" alt="image" src="https://github.com/user-attachments/assets/a2e4a439-1343-4e3b-8823-d9c701c5150f" />
 
+menggunakan konvigurasi :
+
     # program mengurutkan data
     # menerima input dari pengguna
     bilangan1 = int(input("masukkan bilangan ke-1: "))
@@ -70,6 +72,98 @@ maka hasilnya :
     # menampilkan hasil
     print("urutan bilangan:", daftar_bilangan)
 
+•	Untuk menerima input dari pengguna, kita dapat menggunakan fungsi input() di Python. Input akan disimpan sebagai string, jadi kita perlu mengubahnya menjadi tipe data integer (int) untuk dapat diurutkan secara numerik.
 
+•	Untuk mengurutkan data, cara yang paling umum adalah dengan menyimpannya dalam sebuah list. List adalah struktur data yang dapat menyimpan banyak item dalam satu variabel.
+
+•	Menggunakan metode sort() untuk list yang dapat mengurutkan item dalam list secara berurutan dari yang terkecil ke terbesar (ascending order).
+
+•	Setelah list diurutkan, kita dapat mencetaknya ke layar menggunakan fungsi print().
+
+•	Program di atas akan menghasilkan output yang di inginkan
+
+yang dihasilkan :
+
+<img width="683" height="148" alt="image" src="https://github.com/user-attachments/assets/2ff0ab8a-7a1d-4216-8d82-97715624aef4" />
+
+
+# Latihan 1
+
+<img width="774" height="133" alt="image" src="https://github.com/user-attachments/assets/bb2609b5-fc9f-4c9d-ae55-c8c744d1d930" />
+
+    # menerima input dari pengguna
+    bilangan1 = float(input("masukkan bilangan pertama: "))
+    bilangan2 = float(input("masukkan bilangan kedua: "))
+    bilangan3 = float(input("masukkan bilangan ketiga: "))
+    bilangan4 = float(input("masukkan bilangan keempat: "))
+
+    # menentukan bilangan terbesar dari dua bilangan pertama menggunakan statment if
+    if bilangan1 > bilangan2:
+        terbesar = bilangan1
+    else:
+        terbesar = bilangan2
+
+    # menampilkan hasil
+    print(f"bilangan terbesar dari bilangan pertama dan kedua adalah: {terbesar}")
+
+•	Tujuan dari program ini adalah untuk menerima empat input bilangan dari pengguna dan kemudian menentukan bilangan terbesar dari dua bilangan pertama menggunakan pernyataan if.
+
+•	Fungsi input() digunakan untuk meminta pengguna memasukkan bilangan. Karena bilangan bisa berupa desimal, gunakan float() untuk mengonversi input string menjadi tipe data float.
+
+Gunakan pernyataan if untuk memeriksa apakah bilangan1 lebih besar dari bilangan2.
+
+•	Jika bilangan1 > bilangan2, maka bilangan1 adalah yang terbesar.
+
+•	Jika tidak (else), maka bilangan2 adalah yang terbesar.
+
+•	Simpan hasil perbandingan ini dalam variabel baru, misalnya terbesar.
+
+Cetak hasil yang disimpan dalam variabel terbesar untuk menunjukkan bilangan mana yang lebih besar.
+Hasilnya seperti berikut :
+
+<img width="706" height="166" alt="image" src="https://github.com/user-attachments/assets/fcdc8291-f72b-4a2a-af69-9747ac9ae481" />
+
+
+# Latihan 2
+
+<img width="536" height="286" alt="image" src="https://github.com/user-attachments/assets/e8e034bd-ee56-4247-ae23-775a85a4f679" />
+
+    import random
+    # meminta input dari pengguna untuk jumlah bilangan
+    n = int(input("masukkan jumlah n: "))
+
+    # menggunakan loop while untuk menghasilkan bilangan acak
+    # sampai n bilangan yang kurang dari 0.5 ditemukan
+    while n > 0:
+        # menghasilkan bilangan acak antara 0.0 dan 1.0
+        random_number = random.random()
+
+        # memeriksa apakah bilangan acak kurang dari 0.5
+        if random_number < 0.5:
+            # menampilkan bilangan jika memenuhi syarat
+            print(random_number)
+
+            # mengurangi n karena satu bilangan sudah ditemukan
+            n -= 1
+
+•	Impor Modul: Mengimpor modul random untuk fungsi pembangkit bilangan acak.
+
+•	Input Pengguna: Meminta pengguna untuk memasukkan jumlah bilangan yang akan diproses, yang disimpan dalam variabel n.
+
+•	Perulangan: Melakukan perulangan while sebanyak n kali.
+
+•	Pembangkitan Bilangan Acak: Di setiap perulangan, program menghasilkan satu bilangan acak antara 0.0 dan 1.0.
+
+•	Kondisi dan Output: Memeriksa apakah bilangan acak tersebut kurang dari 0.5. Jika ya, bilangan tersebut akan dicetak ke layar.
+
+•	Pembaruan Variabel: Mengurangi nilai n sebesar 1 di setiap iterasi perulangan hingga n mencapai 0.
+
+Dan menghasilkan :
+
+<img width="686" height="168" alt="image" src="https://github.com/user-attachments/assets/654c04c8-4a3a-49be-9138-f167e505cfbd" />
+
+
+
+    
 
 
