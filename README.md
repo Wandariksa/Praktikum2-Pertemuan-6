@@ -34,3 +34,17 @@ for i in range(1, 10):
     # Pindah ke baris baru setelah perulangan dalam selesai
     print()
 
+
+•	for i in range(10): akan mengulangi blok kode sebanyak 10 kali, dengan i mengambil nilai 0, 1, 2, ..., 9. Ini mewakili baris.
+
+•	for j in range(10): akan mengulangi blok kode sebanyak 10 kali, dengan j mengambil nilai 0, 1, 2, ..., 9. Ini mewakili kolom.
+
+•	print(i + j, end=" ") akan mencetak hasil penjumlahan i dan j. Argumen end=" " digunakan agar setiap angka dicetak di baris yang sama dengan spasi sebagai pemisah.
+
+•	print() akan mencetak baris baru setelah setiap baris selesai dicetak.
+
+maka hasilnya :
+<img width="540" height="235" alt="image" src="https://github.com/user-attachments/assets/5cc94f76-b6c1-4f3c-8e97-ac6213766549" />
+
+
+
