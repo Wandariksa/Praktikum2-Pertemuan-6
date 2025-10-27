@@ -1,3 +1,7 @@
+# Pratikum2-pertwmuan6
+
+# Latihan 1
+
 <img width="429" height="220" alt="SOAL 1" src="https://github.com/user-attachments/assets/6a0a63b5-01bc-45da-a221-cf04636610ef" />
 
 Pola yang diminta Adalah matriks angka berukuran 10x10.
@@ -44,7 +48,38 @@ for i in range(1, 10):
 •	print() akan mencetak baris baru setelah setiap baris selesai dicetak.
 
 maka hasilnya :
+
 <img width="540" height="235" alt="image" src="https://github.com/user-attachments/assets/5cc94f76-b6c1-4f3c-8e97-ac6213766549" />
+
+
+# Latihan 2
+
+<img width="544" height="218" alt="image" src="https://github.com/user-attachments/assets/a2e4a439-1343-4e3b-8823-d9c701c5150f" />
+
+    # program mengurutkan data
+    
+    # menerima input dari pengguna
+    
+    bilangan1 = int(input("masukkan bilangan ke-1: "))
+    
+    bilangan2 = int(input("masukkan bilangan ke-2: "))
+    
+    bilangan3 = int(input("masukkan bilangan ke-3: "))
+    
+
+    # menyimpan bilangan ke dalam list
+    
+    daftar_bilangan = [bilangan1, bilangan2, bilangan3]
+    
+
+    # mengurutkan list
+    
+    daftar_bilangan.sort()
+
+    # menampilkan hasil
+    
+    print("urutan bilangan:", daftar_bilangan)
+
 
 
 
