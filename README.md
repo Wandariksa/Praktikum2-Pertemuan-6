@@ -58,25 +58,16 @@ maka hasilnya :
 
     # program mengurutkan data
     # menerima input dari pengguna
-    
     bilangan1 = int(input("masukkan bilangan ke-1: "))
-    
     bilangan2 = int(input("masukkan bilangan ke-2: "))
-    
     bilangan3 = int(input("masukkan bilangan ke-3: "))
     
-
     # menyimpan bilangan ke dalam list
-    
     daftar_bilangan = [bilangan1, bilangan2, bilangan3]
     
-
     # mengurutkan list
-    
     daftar_bilangan.sort()
-
     # menampilkan hasil
-    
     print("urutan bilangan:", daftar_bilangan)
 
 
