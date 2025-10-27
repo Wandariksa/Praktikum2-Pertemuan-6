@@ -3,8 +3,11 @@
 Pola yang diminta Adalah matriks angka berukuran 10x10.
 
 •	Baris pertama (indeks 0) dimulai dari 0 dan setiap angka berikutnya bertambah 1. 
+
 •	Baris kedua (indeks 1) dimulai dari 1 dan setiap angka berikutnya bertambah 1. 
+
 •	Baris ke-i (indeks i) dimulai dari i. 
+
 •	Angka di setiap sel pada baris i dan kolom j dapat dihitung dengan rumus: (i+j).
 Menggunakan perulangan for yang bersarang (nested)
 •	Perulangan luar akan mengontrol baris, dari 0-9
