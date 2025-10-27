@@ -57,7 +57,6 @@ maka hasilnya :
 <img width="544" height="218" alt="image" src="https://github.com/user-attachments/assets/a2e4a439-1343-4e3b-8823-d9c701c5150f" />
 
     # program mengurutkan data
-    
     # menerima input dari pengguna
     
     bilangan1 = int(input("masukkan bilangan ke-1: "))
